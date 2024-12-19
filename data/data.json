@@ -53,6 +53,14 @@
             "max": 1
         },
         {
+            "name": "FICSMAS Gift Tree",
+            "key_name": "ficmas-gift-tree",
+            "category": "ficmas",
+            "power": 0,
+            "somersloop_slots": 0,
+            "max": 0
+        },
+        {
             "name": "Assembler",
             "key_name": "assembler",
             "category": "crafting2",
@@ -178,9 +186,96 @@
             "category": "water",
             "base_rate": 120,
             "power": 20
+        },
+        {
+            "name":"FICSMAS Gift Tree",
+            "key_name":"ficmas-gift-tree",
+            "category":"ficmas",
+            "base_rate": 15,
+            "power": 0
         }
+        
     ],
     "items": [
+        {
+            "name":"FICSMAS Gift",
+            "key_name":"ficmas-gift",
+            "tier": -1,
+            "stack_size": 200
+
+        },
+        {
+            "name":"FICSMAS Tree Branch",
+            "key_name":"ficmas-tree-branch",
+            "tier": -1,
+            "stack_size": 500
+        },
+        {
+            "name":"Candy Cane",
+            "key_name":"candy-cane",
+            "tier": -1,
+            "stack_size": 100
+        },
+        {
+           "name":"FICSMAS Bow",
+            "key_name":"ficmas-bow",
+            "tier": -1,
+            "stack_size": 100 
+        },
+        {
+            "name":"Red FICSMAS Ornament",
+            "key_name":"red-ficmas-ornament",
+            "tier": -1,
+            "stack_size": 500
+        },
+        {
+            "name":"Blue FICSMAS Ornament",
+            "key_name":"blue-ficmas-ornament",
+            "tier": -1,
+            "stack_size": 500 
+        },
+        {
+            "name":"Copper FICSMAS Ornament",
+            "key_name":"copper-ficmas-ornament",
+            "tier": -1,
+            "stack_size": 200
+        },
+        {
+            "name":" Iron FICSMAS Ornament",
+            "key_name":"iron-ficmas-ornament",
+            "tier": -1,
+            "stack_size": 200
+        },
+        {
+            "name":"FICSMAS Ornament Bundle",
+            "key_name":"ficmas-ornament-bundle",
+            "tier": -1,
+            "stack_size": 500
+        },
+        {
+            "name": "FICSMAS Decoration",
+            "key_name": "ficmas-decoration",
+            "tier": -1,
+            "stack_size": 100
+        },
+        {
+            "name":"FICSMAS Actual Snow",
+            "key_name":"ficmas-actual-snow",
+            "tier": -1,
+            "stack_size": 100
+        },
+        {
+            "name":"FICSMAS Wonder Star",
+            "key_name":"ficmas-wonder-star",
+            "tier": -1,
+            "stack_size": 50
+        },
+        {
+            "name":"Snowball",
+            "key_name":"snowball",
+            "tier": -1,
+            "stack_size": 100
+        },
         {
             "name": "Iron Ore",
             "key_name": "iron-ore",
@@ -1025,6 +1120,77 @@
         }
     ],
     "recipes": [
+        {
+            "name": "Actual Snow",
+            "key_name": "actual-snow",
+            "category": "crafting1",
+            "time": 2,
+            "ingredients":[
+                ["ficmas-gift", 5]
+            ],
+            "products": [
+                ["ficmas-actual-snow", 2]
+            ]
+        },
+        {
+            "name": "FICSMAS Gift",
+            "key_name": "ficmas-gift",
+            "category": "ficmas",
+            "time": 2,
+            "ingredients":[],
+            "products": [
+                ["ficmas-gift", 1]
+            ]
+        },
+        {
+            "name": "Blue FICSMAS Ornament",
+            "key_name": "blue-ficmas-ornament",
+            "category": "smelting1",
+            "time": 12,
+            "ingredients":[
+                ["ficmas-gift", 1]
+            ],
+            "products": [
+                ["blue-ficmas-ornament", 2]
+            ]
+        },
+        {
+            "name":"Candy Cane",
+            "key_name":"candy-cane",
+            "category":"crafting1",
+            "time":12,
+            "ingredients":[
+                ["ficmas-gift", 3]
+            ],
+            "products":[
+                ["candy-cane", 1]
+            ]
+        },
+        {
+            "name":"Copper FICSMAS Ornament",
+            "key_name":"copper-ficmas-ornament",
+            "category":"smelting2",
+            "time":12,
+            "ingredients":[
+                ["red-ficmas-ornament", 2],
+                ["copper-ingot", 2]
+            ],
+            "products":[
+                ["copper-ficmas-ornament", 1]
+            ]
+        },
+        {
+            "name":"Red FICSMAS Ornament",
+            "key_name":"red-ficmas-ornament",
+            "category":"smelting1",
+            "time":12,
+            "ingredients":[
+                ["ficmas-gift", 1]
+            ],
+            "products":[
+                ["red-ficmas-ornament", 1]
+            ]
+        },
         {
             "name": "Iron Ingot",
             "key_name": "iron-ingot",

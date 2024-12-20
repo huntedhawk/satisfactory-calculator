@@ -198,6 +198,24 @@
     ],
     "items": [
         {
+            "name":"Fancy Fireworks",
+            "key_name":"fancy-fireworks",
+            "tier": -1,
+            "stack_size": 500
+        },
+        {
+            "name":"Sweet Fireworks",
+            "key_name":"sweet-fireworks",
+            "tier": -1,
+            "stack_size": 500
+        },
+        {
+            "name":"Sparkly Fireworks",
+            "key_name":"sparkly-fireworks",
+            "tier": -1,
+            "stack_size": 500
+        },
+        {
             "name":"FICSMAS Gift",
             "key_name":"ficmas-gift",
             "tier": -1,
@@ -241,7 +259,7 @@
             "stack_size": 200
         },
         {
-            "name":" Iron FICSMAS Ornament",
+            "name":"Iron FICSMAS Ornament",
             "key_name":"iron-ficmas-ornament",
             "tier": -1,
             "stack_size": 200
@@ -1122,7 +1140,7 @@
     "recipes": [
         {
             "name": "Actual Snow",
-            "key_name": "actual-snow",
+            "key_name": "ficmas-actual-snow",
             "category": "crafting1",
             "time": 2,
             "ingredients":[
@@ -1136,7 +1154,7 @@
             "name": "FICSMAS Gift",
             "key_name": "ficmas-gift",
             "category": "ficmas",
-            "time": 2,
+            "time": 4,
             "ingredients":[],
             "products": [
                 ["ficmas-gift", 1]
@@ -1189,6 +1207,138 @@
             ],
             "products":[
                 ["red-ficmas-ornament", 1]
+            ]
+        },
+        {
+            "name":"FICSMAS Bow",
+            "key_name":"ficmas-bow",
+            "category":"crafting1",
+            "time":12,
+            "ingredients":[
+                [
+                    "ficmas-gift", 2
+                ]
+            ],
+            "products":[
+                ["ficmas-bow", 1]
+            ]
+        },
+        {
+            "name":"FICSMAS Decoration",
+            "key_name":"ficmas-decoration",
+            "category":"crafting2",
+            "time":60,
+            "ingredients":[
+                ["ficmas-tree-branch", 15],
+                ["ficmas-ornament-bundle", 6]
+            ],
+            "products":[
+                ["ficmas-decoration", 2]
+            ]
+
+        },
+        {
+            "name":"FICSMAS Ornament Bundle",
+            "key_name":"ficmas-ornament-bundle",
+            "category":"crafting2",
+            "time":12,
+            "ingredients":[
+                ["copper-ficmas-ornament", 1],
+                ["iron-ficmas-ornament", 1]
+            ],
+            "products":[
+                ["ficmas-ornament-bundle", 1]
+            ]
+        },
+        {
+            "name":"Iron FICSMAS Ornament",
+            "key_name":"iron-ficmas-ornament",
+            "category":"smelting2",
+            "time":12,
+            "ingredients":[
+                ["blue-ficmas-ornament", 3],
+                ["iron-ingot", 3]
+            ],
+            "products":[
+                ["iron-ficmas-ornament", 1]
+            ]
+        },
+        {
+            "name":"FICSMAS Tree Branch",
+            "key_name":"ficmas-tree-branch",
+            "category":"crafting1",
+            "time":6,
+            "ingredients":[
+                [
+                    "ficmas-gift", 1
+                ]
+            ],
+            "products":[
+                ["ficmas-tree-branch", 1]
+            ]
+        },
+        {
+            "name":"FICSMAS Wonder Star",
+            "key_name":"ficmas-wonder-star",
+            "category":"crafting2",
+            "time":60,
+            "ingredients":[
+                ["ficmas-decoration", 5],
+                ["candy-cane", 20]
+            ],
+            "products":[
+                ["ficmas-wonder-star", 1]
+            ]
+        },
+        {
+            "name":"Snowball",
+            "key_name":"snowball",
+            "category":"crafting1",
+            "time":12,
+            "ingredients":[
+                ["ficmas-actual-snow", 3]
+            ],
+            "products":[
+                ["snowball", 1]
+            ]
+        },
+        {
+            "name":"Fancy Fireworks",
+            "key_name":"fancy-fireworks",
+            "category":"crafting2",
+            "time":24,
+            "ingredients":[
+                ["ficmas-tree-branch", 4],
+                ["ficmas-bow", 3]
+            ],
+            "products":[
+                ["fancy-fireworks", 1]
+            ]
+        },
+        {
+            "name":"Sparkly Fireworks",
+            "key_name":"sparkly-fireworks",
+            "category":"crafting2",
+            "time":24,
+            "ingredients":[
+                ["ficmas-tree-branch", 3],
+                ["ficmas-actual-snow", 2]
+            ],
+            "products":[
+                ["sparkly-fireworks", 1]
+            ]
+        },
+        {
+            "name":"Sweet Fireworks",
+            "key_name":"sweet-fireworks",
+            "category":"crafting2",
+            "time":24,
+            "ingredients":[
+                ["ficmas-tree-branch", 6],
+                ["candy-cane", 3]
+            ],
+            "products":[
+                ["sweet-fireworks", 1]
             ]
         },
         {
